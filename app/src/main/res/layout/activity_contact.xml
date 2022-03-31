@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:background="#323030"
+        android:layout_width="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:layout_height="wrap_content">
+
+        <Toolbar
+            android:titleTextColor="#ffffff"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <LinearLayout
+                   android:orientation="horizontal"
+                   android:gravity="center_vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+                   <ImageView
+                       android:id="@+id/iv_back_main_activity"
+                       android:background="@drawable/ic_back"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+
+                   <TextView
+                       android:text="Contacts"
+                       android:layout_weight="1"
+                       android:textSize="26sp"
+                       android:textColor="#ffffff"
+                       android:gravity="center"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"/>
+
+                   <ImageView
+                       android:background="@drawable/ic_add"
+                       android:layout_width="40dp"
+                       android:layout_height="40dp"/>
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <EditText
+                       android:text="Search"
+                       android:layout_marginLeft="20dp"
+                       android:layout_marginRight="20dp"
+                       android:layout_marginTop="10dp"
+                       android:layout_gravity="center"
+                       android:gravity="center"
+                       android:layout_marginBottom="10dp"
+                       android:background="@drawable/shape_border_rounded"
+                       android:textSize="18sp"
+                       android:paddingRight="40dp"
+                       android:textColor="@color/white"
+                       android:drawableLeft="@android:drawable/ic_menu_search"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+               </LinearLayout>
+           </LinearLayout>
+
+        </Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="640dp">
+
+        <LinearLayout
+
+            android:layout_weight="9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView_contacts"
+                android:background="#0E0E0E"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#323030"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+           <LinearLayout
+               android:gravity="center"
+               android:layout_weight="1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <ImageView
+                   android:src="@drawable/ic_contact"
+                   android:layout_gravity="center"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"/>
+           </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_chatss"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/iv_settings"
+                    android:src="@drawable/ic_setings"
+                    android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

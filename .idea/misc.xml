@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.1385" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/drawable-anydpi/ic_back.xml" value="0.1385" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/drawable-anydpi/ic_chatss.xml" value="0.1385" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/drawable-anydpi/ic_contact.xml" value="0.1385" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/drawable-anydpi/ic_invite.xml" value="0.1385" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/drawable-anydpi/ic_launch.xml" value="0.1385" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/drawable-anydpi/ic_location.xml" value="0.1385" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/drawable-anydpi/ic_setings.xml" value="0.1385" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/drawable/lay_layout_border.xml" value="0.1385" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/drawable/shape_border_rounded.xml" value="0.1525" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/layout/activity_contact.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/layout/activity_notification.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/layout/item_chat_view.xml" value="0.21" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/layout/item_contact_view_first.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/layout/item_contact_view_second.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/layout/item_contacts_view.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1385" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Telegram_App_UI/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1385" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
